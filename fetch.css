@@ -129,3 +129,38 @@ img:hover + .image-title,.image-title:hover {
 div[class^="container--info-details"] {
     margin: 10px 0 10px 0;
 }
+
+/* Button styles */
+
+.container--button-inner {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    width: 90%;
+    height: 24%;
+}
+
+.btn {
+    width:50%;
+    height: 50%;
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: .5px solid #999;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px #111;
+    transition: .2s;
+}
+
+.btn:hover {
+    color: #999;
+    cursor: pointer;
+}
+
+.btn:active {
+    box-shadow: 0 4px 0 #fff;
+}
